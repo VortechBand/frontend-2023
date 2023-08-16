@@ -1,38 +1,28 @@
 # Vortech frontend 2023
 
-The static React frontend for 2023. 
+The static React frontend for 2023.
 
 This will be used in the GitHub page at https://vortechband.github.io
 
+## Stack
+
+- React
+- Next.js
+- Testing-library
+
 ## Setup
 
-1. `npm install`
-2. `npm start`
-3. Open http://localhost:3000 in a browser
-
-## Deploy
-
-1. Run `npm run build`
-2. Copy the contents of `dist/` to the server or to the Github Pages project
-
-You can also run `npm run deploy` to do those if adding to the GitHub Pages project.
-It assumes the local project is in the parent dir and has the dir name **VortechBand.github.io**
+- Run `npm run dev` to view in browser
+- Run `npm run deploy` to generate a release locally
 
 ## Test
 
-Run `npm test`
+- Run `npm test`
 
-## Things to note
+## Notes to self
 
-This will not connect to any API or database (yet). So for the meantime the
-updates to "database-y" things will be done kinda funnily via commits to the
-static JSON files in this project. These are updated somewhat infrequently:
+> Next.js uses file-system routing, which means the routes in your application are determined by how you structure your files.
+> https://nextjs.org/docs/getting-started/installation#creating-directories
 
-- public/news.json
-- public/releases.json
-
-## Future things
-
-- [ ] Database, of course
-- [ ] Guestbook
-- [ ] User interaction (comments, upvotes, etc)
+app/something/page.tsx
+-> Browsing to http://localhost:3000/something will show the component

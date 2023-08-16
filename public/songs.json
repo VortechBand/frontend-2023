@@ -2,16 +2,22 @@
   {
     "duration": 240,
     "id": 99,
+    "lyrics": "This is a song lyric",
+    "tab": "file.gp5",
     "title": "New Song"
   },
   {
     "duration": 224,
     "id": 100,
+    "lyrics": "This is another song lyric",
+    "tab": "file2.gp5",
     "title": "New Song 2"
   },
   {
     "duration": 321,
     "id": 101,
+    "lyrics": "More song lyrics",
+    "tab": "file3.gp5",
     "title": "New Song 3"
   }
 ]

@@ -27,6 +27,7 @@ static JSON files in this project. These are updated somewhat infrequently:
 
 - public/news.json
 - public/releases.json
+- public/songs.json
 
 ## Future things
 

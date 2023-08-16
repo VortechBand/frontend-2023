@@ -19,6 +19,21 @@ This will be used in the GitHub page at https://vortechband.github.io
 
 - Run `npm test`
 
+## Things to note
+
+This will not connect to any API or database (yet). So for the meantime the
+updates to "database-y" things will be done kinda funnily via commits to the
+static JSON files in this project. These are updated somewhat infrequently:
+
+- public/news.json
+- public/releases.json
+
+## Future things
+
+- [ ] Database, of course
+- [ ] Guestbook
+- [ ] User interaction (comments, upvotes, etc)
+
 ## Notes to self
 
 > Next.js uses file-system routing, which means the routes in your application are determined by how you structure your files.

@@ -1,0 +1,21 @@
+[
+  {
+    "artist": "Vortech",
+    "categories": ["album"],
+    "created": "2023-08-16 18:22",
+    "credits": "Example credits for the release",
+    "formats": ["cd", "digital"],
+    "id": 1,
+    "people": [
+      {
+        "instruments": "Guitar, bass, programming",
+        "name": "Juha Untinen"
+      }
+    ],
+    "releaseCode": "VOR099",
+    "releaseDate": "2023-12-29",
+    "songs": [99, 100, 101],
+    "title": "Test Album",
+    "updated": null
+  }
+]
